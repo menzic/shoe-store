@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f796dc89d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <title>My Shoes Store</title>
+</head>
+<body id="home">
+  <nav class="navbar">
+      <div class="container">
+          <h1 class="logo">Shoe</h1>
+          <ul class="nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+          </ul>
+      </div>
+  </nav> 
+  <!--MainShow-->
+  <section class="section-1">
+      <div class="container">
+    <h1>The Shoes that Even Impress Your Boss</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+     Sed et numquam deleniti quasi dolorem necessitatibus
+      quaerat velit laboriosam, architecto iusto.
+    </p>
+    <a href="#" class="btn">Read More</a>
+      </div>
+    <img src="img/sexyshoe.jpg" alt="" />
+  </section> 
+
+  <!--OverLay text-->
+  <section class="section-2">
+      <div class="overlay">
+          <div class="section-2-1">
+        <h3>Clearn & Smart</h3>
+        <h2>shoes that goes with Your Personality</h2>
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Quia minima</br> repellat quo
+              in rerum, corporis recusandae culpa impedit
+             ab exercitationem.
+            </p>
+          </div>
+      </div>
+  </section>
+  <!--Gallery-->
+  <section class="section-3">
+    <div class="gallery">
+      <a href="img/5GN7LHRH90.jpg" class="big">
+     <img src="img/5GN7LHRH90.jpg" alt=""/> </a>
+    </div>
+  </section>
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script> 
+    <script src="simpleLightbox.min.js"></script>
+    <script>
+        $(function() {
+            const $gallery = $('.gallery a').simpleLight();
+        });
+    </script>
+    
+
+</body>
+</html>
